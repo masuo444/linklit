@@ -181,14 +181,17 @@ header::after {
 }
 
 .tagline {
-    font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', 'Montserrat', sans-serif;
     font-size: 18px;
     color: var(--ai);
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     font-weight: 500;
     position: relative;
     padding: 0 40px;
     margin-top: 20px;
+    font-feature-settings: "palt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .tagline::before,
@@ -727,13 +730,16 @@ footer p {
     }
 
     .tagline {
+        font-family: 'Noto Sans JP', 'Montserrat', sans-serif;
         font-size: 15px;
         padding: 0 20px;
         margin-bottom: 15px;
         margin-top: 18px;
         line-height: 1.4;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.2px;
         font-weight: 500;
+        font-feature-settings: "palt" 1;
+        -webkit-font-smoothing: antialiased;
     }
 
     .section-title {
@@ -994,12 +1000,15 @@ footer p {
     }
 
     .tagline {
+        font-family: 'Noto Sans JP', 'Montserrat', sans-serif;
         font-size: 14px;
         padding: 0 16px;
         margin-top: 16px;
         line-height: 1.3;
         letter-spacing: 1px;
         font-weight: 500;
+        font-feature-settings: "palt" 1;
+        -webkit-font-smoothing: antialiased;
     }
 
     .section-title {
@@ -1112,11 +1121,14 @@ footer p {
     }
 
     .tagline {
+        font-family: 'Noto Sans JP', 'Montserrat', sans-serif;
         font-size: 13px;
         padding: 0 12px;
         margin-top: 14px;
         letter-spacing: 0.8px;
         font-weight: 500;
+        font-feature-settings: "palt" 1;
+        -webkit-font-smoothing: antialiased;
     }
 
     .logo .profile-image {
