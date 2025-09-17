@@ -189,6 +189,7 @@ header::after {
     position: relative;
     padding: 0 40px;
     margin-top: 20px;
+    line-height: 1.6;
     font-feature-settings: "palt" 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
