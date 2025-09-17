@@ -182,12 +182,13 @@ header::after {
 
 .tagline {
     font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: var(--ai);
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 500;
     position: relative;
     padding: 0 40px;
+    margin-top: 20px;
 }
 
 .tagline::before,
@@ -195,15 +196,16 @@ header::after {
     content: '〜';
     position: absolute;
     color: var(--beni);
-    opacity: 0.4;
+    opacity: 0.5;
+    font-size: 0.9em;
 }
 
 .tagline::before {
-    left: 10px;
+    left: 8px;
 }
 
 .tagline::after {
-    right: 10px;
+    right: 8px;
 }
 
 /* Profile Description in Header */
@@ -725,11 +727,13 @@ footer p {
     }
 
     .tagline {
-        font-size: 13px;
+        font-size: 15px;
         padding: 0 20px;
         margin-bottom: 15px;
+        margin-top: 18px;
         line-height: 1.4;
         letter-spacing: 1.5px;
+        font-weight: 500;
     }
 
     .section-title {
@@ -990,10 +994,12 @@ footer p {
     }
 
     .tagline {
-        font-size: 12px;
+        font-size: 14px;
         padding: 0 16px;
+        margin-top: 16px;
         line-height: 1.3;
         letter-spacing: 1px;
+        font-weight: 500;
     }
 
     .section-title {
@@ -1106,9 +1112,11 @@ footer p {
     }
 
     .tagline {
-        font-size: 11px;
+        font-size: 13px;
         padding: 0 12px;
+        margin-top: 14px;
         letter-spacing: 0.8px;
+        font-weight: 500;
     }
 
     .logo .profile-image {
