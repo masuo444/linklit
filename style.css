@@ -222,63 +222,64 @@ header::after {
 }
 
 .profile-description p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.8;
     color: var(--sumi);
-    margin-bottom: 20px;
-    letter-spacing: 0.03em;
+    margin-bottom: 22px;
+    letter-spacing: 0.02em;
     word-break: keep-all;
     overflow-wrap: break-word;
 }
 
 .profile-description .profile-intro {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 600;
     color: var(--ai);
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .profile-description .profile-work {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.8;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .profile-description .profile-mission {
     background: rgba(255, 240, 245, 0.2);
-    padding: 15px;
-    border-radius: 3px;
+    padding: 18px;
+    border-radius: 4px;
     border: 1px solid rgba(183, 62, 62, 0.1);
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .profile-description .profile-mission .highlight {
     color: var(--beni);
     font-weight: 600;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .profile-description .profile-cta {
     background: rgba(11, 84, 116, 0.06);
-    padding: 15px;
-    border-radius: 3px;
+    padding: 18px;
+    border-radius: 4px;
     border: 1px solid rgba(11, 84, 116, 0.1);
     font-weight: 500;
     color: var(--ai);
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Section Titles */
 .section-title {
-    font-size: 24px;
+    font-size: 28px;
     color: var(--ai);
     text-align: center;
     margin: 60px 0 40px;
     position: relative;
     padding-bottom: 20px;
-    font-weight: 500;
-    letter-spacing: 0.2em;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    line-height: 1.3;
 }
 
 .section-title::before {
@@ -474,18 +475,19 @@ header::after {
 }
 
 .link-content h3 {
-    font-size: 17px;
-    margin-bottom: 5px;
-    font-weight: 500;
-    letter-spacing: 0.05em;
+    font-size: 19px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
     color: var(--ai);
+    line-height: 1.3;
 }
 
 .link-content p {
-    font-size: 13px;
-    opacity: 0.8;
-    line-height: 1.6;
-    letter-spacing: 0.02em;
+    font-size: 15px;
+    opacity: 0.85;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
     color: var(--sumi);
 }
 
@@ -744,9 +746,10 @@ footer p {
     }
 
     .section-title {
-        font-size: 18px;
+        font-size: 22px;
         margin: 40px 0 25px;
         letter-spacing: 0.1em;
+        font-weight: 600;
     }
 
     .section-title::before {
@@ -859,25 +862,26 @@ footer p {
     }
 
     .link-content h3 {
-        font-size: 14px;
-        margin-bottom: 4px;
-        line-height: 1.2;
+        font-size: 16px;
+        margin-bottom: 6px;
+        line-height: 1.3;
+        font-weight: 600;
     }
 
     .link-content p {
-        font-size: 11px;
-        line-height: 1.3;
+        font-size: 13px;
+        line-height: 1.5;
         opacity: 0.85;
     }
 
     .fomus-services .link-content h3 {
-        font-size: 13px;
-        margin-bottom: 2px;
+        font-size: 15px;
+        margin-bottom: 4px;
     }
 
     .fomus-services .link-content p {
-        font-size: 10px;
-        line-height: 1.2;
+        font-size: 12px;
+        line-height: 1.4;
     }
 
     .link-content p strong {
@@ -936,14 +940,15 @@ footer p {
     }
 
     .profile-description p {
-        font-size: 14px;
-        line-height: 1.6;
-        margin-bottom: 16px;
+        font-size: 15px;
+        line-height: 1.7;
+        margin-bottom: 18px;
     }
 
     .profile-description .profile-intro {
-        font-size: 15px;
-        margin-bottom: 18px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 600;
     }
 
     .profile-description .profile-mission,
@@ -1013,8 +1018,9 @@ footer p {
     }
 
     .section-title {
-        font-size: 17px;
+        font-size: 20px;
         margin: 35px 0 20px;
+        font-weight: 600;
     }
 
     .personal-services .link-image {
@@ -1041,23 +1047,24 @@ footer p {
     }
 
     .link-content h3 {
-        font-size: 14px;
-        margin-bottom: 4px;
+        font-size: 15px;
+        margin-bottom: 5px;
+        font-weight: 600;
     }
 
     .link-content p {
-        font-size: 11px;
-        line-height: 1.3;
+        font-size: 12px;
+        line-height: 1.4;
     }
 
     .fomus-services .link-content h3 {
-        font-size: 12px;
-        margin-bottom: 2px;
+        font-size: 14px;
+        margin-bottom: 3px;
     }
 
     .fomus-services .link-content p {
-        font-size: 9px;
-        line-height: 1.2;
+        font-size: 11px;
+        line-height: 1.3;
     }
 
     .link-content p strong {
@@ -1139,8 +1146,9 @@ footer p {
     }
 
     .section-title {
-        font-size: 16px;
+        font-size: 18px;
         margin: 30px 0 18px;
+        font-weight: 600;
     }
 
     .personal-services .link-image {
@@ -1178,23 +1186,24 @@ footer p {
     }
 
     .link-content h3 {
-        font-size: 13px;
-        margin-bottom: 3px;
+        font-size: 14px;
+        margin-bottom: 4px;
+        font-weight: 600;
     }
 
     .link-content p {
-        font-size: 10px;
-        line-height: 1.2;
+        font-size: 11px;
+        line-height: 1.3;
     }
 
     .fomus-services .link-content h3 {
-        font-size: 11px;
-        margin-bottom: 1px;
+        font-size: 13px;
+        margin-bottom: 2px;
     }
 
     .fomus-services .link-content p {
-        font-size: 8px;
-        line-height: 1.1;
+        font-size: 10px;
+        line-height: 1.2;
     }
 
     .link-content p strong {
