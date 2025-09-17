@@ -750,22 +750,44 @@ footer p {
     }
 
     .link-button.with-image {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px;
         min-height: auto;
         overflow: hidden;
     }
 
     .link-image {
+        width: 100px;
+        height: 80px;
+        border-radius: 6px;
+        min-width: 100px;
+        flex-shrink: 0;
+        margin-right: 12px;
+    }
+
+    .fomus-services .link-image {
+        width: 90px;
+        height: 90px;
+        margin-right: 12px;
+    }
+
+    .corporate .link-button.with-image {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .corporate .link-image {
         width: 100%;
-        height: 200px;
+        height: 160px;
         border-radius: 8px 8px 0 0;
-        min-width: unset;
+        margin-right: 0;
     }
 
     .personal-services .link-image {
         width: 100px;
         height: 100px;
-        margin: 16px auto 0;
+        margin: 0 16px 0 0;
         border-radius: 50%;
         border-width: 2px;
         flex-shrink: 0;
@@ -778,13 +800,14 @@ footer p {
         min-height: 120px;
     }
 
-    .personal-services .link-image {
-        margin: 0 16px 0 0;
+    .link-info {
+        padding: 0 12px 0 0;
+        width: 100%;
+        flex: 1;
     }
 
-    .link-info {
+    .corporate .link-info {
         padding: 16px 20px 20px;
-        width: 100%;
     }
 
     .personal-services .link-info {
@@ -792,9 +815,17 @@ footer p {
         flex: 1;
     }
 
+    .fomus-services .link-info {
+        padding: 0 12px 0 0;
+    }
+
     .link-content.full-width {
-        text-align: center;
+        text-align: left;
         padding-left: 0;
+    }
+
+    .corporate .link-content.full-width {
+        text-align: center;
     }
 
     .personal-services .link-content.full-width,
@@ -814,15 +845,25 @@ footer p {
     }
 
     .link-content h3 {
-        font-size: 16px;
-        margin-bottom: 8px;
-        line-height: 1.3;
+        font-size: 14px;
+        margin-bottom: 4px;
+        line-height: 1.2;
     }
 
     .link-content p {
-        font-size: 13px;
-        line-height: 1.5;
+        font-size: 11px;
+        line-height: 1.3;
         opacity: 0.85;
+    }
+
+    .fomus-services .link-content h3 {
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+
+    .fomus-services .link-content p {
+        font-size: 10px;
+        line-height: 1.2;
     }
 
     .link-content p strong {
@@ -966,14 +1007,35 @@ footer p {
         min-height: 110px;
     }
 
+    .fomus-services .link-image {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .fomus-services .link-button.with-image {
+        padding: 10px;
+        min-height: auto;
+    }
+
     .link-content h3 {
-        font-size: 15px;
-        margin-bottom: 6px;
+        font-size: 14px;
+        margin-bottom: 4px;
     }
 
     .link-content p {
+        font-size: 11px;
+        line-height: 1.3;
+    }
+
+    .fomus-services .link-content h3 {
         font-size: 12px;
-        line-height: 1.4;
+        margin-bottom: 2px;
+    }
+
+    .fomus-services .link-content p {
+        font-size: 9px;
+        line-height: 1.2;
     }
 
     .link-content p strong {
@@ -1064,6 +1126,10 @@ footer p {
     }
 
     .link-info {
+        padding: 0 10px 0 0;
+    }
+
+    .corporate .link-info {
         padding: 14px 16px 16px;
     }
 
@@ -1071,14 +1137,34 @@ footer p {
         padding: 0 12px 0 0;
     }
 
+    .fomus-services .link-image {
+        width: 70px;
+        height: 70px;
+        margin-right: 8px;
+    }
+
+    .fomus-services .link-button.with-image {
+        padding: 8px;
+    }
+
     .link-content h3 {
-        font-size: 14px;
-        margin-bottom: 5px;
+        font-size: 13px;
+        margin-bottom: 3px;
     }
 
     .link-content p {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+    .fomus-services .link-content h3 {
         font-size: 11px;
-        line-height: 1.3;
+        margin-bottom: 1px;
+    }
+
+    .fomus-services .link-content p {
+        font-size: 8px;
+        line-height: 1.1;
     }
 
     .link-content p strong {
